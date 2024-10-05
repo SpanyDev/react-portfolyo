@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+body {
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100vw;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #ff970f;
+}
+
+#nprogress .bar {
+    background: #ff970f !important;
+    height: 5px !important;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: #ff970f !important;
+    border-left-color: #ff970f !important;
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 10px #14151f, 0 0 5px #14151f !important;
+}
+
+.swiper {
+    display: grid !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #14151f;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff970f;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff970f;
+}
