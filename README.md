@@ -14,3 +14,7 @@ Bu, **React** ile oluşturduğum kişisel portfolyo sitemdir. Bu sitede projeler
 - **React**: Sitenin ön yüzü tamamen React ile geliştirildi.
 - **Talwind CSS**: Tasarımı güzelleştirmek için özel stiller.
 - **GitHub API**: GitHub'daki bazı açık kaynak katkılarımı gösteriyor.
+
+## 🔍 Düzenleme
+
+- **src/Data** klasörünün içindeki dosyalardan projenizi düzenleyebilirsiniz.
