@@ -41,13 +41,13 @@ const Hero = () => {
           </p>
           <div className="flex justify-center lg:justify-start mt-3 space-x-2">
             <Link
-              to=`https://youtube.com/@${User.youtube}`
+              to={`https://github.com/${User.github}`}
               className="inline-block hover:text-orange-500"
             >
               <IconBrandGithub size={30} />
             </Link>
             <Link
-              to=`https://github.com/${User.github}`
+              to={`https://youtube.com/@${User.youtube}`}
               className="inline-block hover:text-red-500"
             >
               <IconBrandYoutube size={30} />
@@ -63,7 +63,7 @@ const Hero = () => {
         >
           <img
             className="rounded-full w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 object-cover"
-            src={user.ProfileLogo}
+            src={User.ProfileLogo}
             alt="Spany"
           />
         </motion.div>
