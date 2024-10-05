@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   useEffect(() => {
+    document.title = "Anasayfa - Portfolyo";
+
     const scrollToHash = () => {
       const hash = window.location.hash;
       if (hash) {
