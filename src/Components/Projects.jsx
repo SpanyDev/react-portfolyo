@@ -21,7 +21,7 @@ const Projects = () => {
                             </div>
                             <div className="flex items-center justify-center">
                                 <IconLink size={20} color="blue" />
-                                <Link style={{ fontFamily: "Heebo, sans-serif", fontWeight: 400 }} to={`/projects/${project.id}`} className="text-blue-600 mx-1">
+                                <Link style={{ fontFamily: "Heebo, sans-serif", fontWeight: 400 }} to={`${project.link}`} className="text-blue-600 mx-1">
                                     View Project
                                 </Link>
                             </div>
